@@ -24,6 +24,7 @@ A API recebe dados via requisições HTTP **POST**, processa as entradas e retor
 
 
 🐳 Executando com Docker
+
 🔹 1. Construir a Imagem Docker
 docker build -t regressao-linear .
 
