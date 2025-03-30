@@ -23,3 +23,14 @@ A API recebe dados via requisições HTTP **POST**, processa as entradas e retor
 └── 📄 `README.md` → Documentação do projeto.  
 
 
+🐳 Executando com Docker
+🔹 1. Construir a Imagem Docker
+docker build -t regressao-linear .
+
+🔹 2. Rodar o Container
+
+📌 Testando a API
+Agora que a API está rodando, você pode testá-la enviando requisições POST.
+
+Para testar com o script Python, execute:
+test_api.py
